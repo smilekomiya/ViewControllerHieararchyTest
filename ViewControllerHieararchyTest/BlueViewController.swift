@@ -8,5 +8,7 @@
 import Foundation
 import UIKit
 class BlueViewController: UIViewController {
-    
+    override func viewDidAppear(_ animated: Bool) {
+        self.viewDidDisappear(animated)
+    }
 }

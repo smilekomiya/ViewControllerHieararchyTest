@@ -12,6 +12,10 @@ class PurpleViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        self.viewDidDisappear(animated)
+    }
+    
     @IBAction func tapDismiss(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

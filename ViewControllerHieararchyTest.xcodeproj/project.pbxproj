@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02058C1E261DCDFF005E5B69 /* BlueUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02058C1D261DCDFF005E5B69 /* BlueUIView.swift */; };
+		02058C21261DCE22005E5B69 /* YellowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02058C20261DCE22005E5B69 /* YellowUIView.swift */; };
+		02058C24261DCE87005E5B69 /* PurpleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02058C23261DCE87005E5B69 /* PurpleUIView.swift */; };
 		02449A0A261B455D00F5FE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A09261B455D00F5FE9B /* AppDelegate.swift */; };
 		02449A0C261B455D00F5FE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A0B261B455D00F5FE9B /* SceneDelegate.swift */; };
-		02449A0E261B455D00F5FE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A0D261B455D00F5FE9B /* ViewController.swift */; };
+		02449A0E261B455D00F5FE9B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A0D261B455D00F5FE9B /* RootViewController.swift */; };
 		02449A11261B455D00F5FE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02449A0F261B455D00F5FE9B /* Main.storyboard */; };
 		02449A13261B455E00F5FE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02449A12261B455E00F5FE9B /* Assets.xcassets */; };
 		02449A16261B455E00F5FE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02449A14261B455E00F5FE9B /* LaunchScreen.storyboard */; };
+		02449A1F261B4BCB00F5FE9B /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A1E261B4BCB00F5FE9B /* PurpleViewController.swift */; };
+		02449A23261B54B300F5FE9B /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A22261B54B300F5FE9B /* YellowViewController.swift */; };
+		02449A26261B54D200F5FE9B /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449A25261B54D200F5FE9B /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02058C1D261DCDFF005E5B69 /* BlueUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueUIView.swift; sourceTree = "<group>"; };
+		02058C20261DCE22005E5B69 /* YellowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowUIView.swift; sourceTree = "<group>"; };
+		02058C23261DCE87005E5B69 /* PurpleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleUIView.swift; sourceTree = "<group>"; };
 		02449A06261B455D00F5FE9B /* ViewControllerHieararchyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerHieararchyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02449A09261B455D00F5FE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02449A0B261B455D00F5FE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02449A0D261B455D00F5FE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02449A0D261B455D00F5FE9B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		02449A10261B455D00F5FE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02449A12261B455E00F5FE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02449A15261B455E00F5FE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02449A17261B455E00F5FE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02449A1E261B4BCB00F5FE9B /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		02449A22261B54B300F5FE9B /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		02449A25261B54D200F5FE9B /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				02449A09261B455D00F5FE9B /* AppDelegate.swift */,
 				02449A0B261B455D00F5FE9B /* SceneDelegate.swift */,
-				02449A0D261B455D00F5FE9B /* ViewController.swift */,
+				02449A0D261B455D00F5FE9B /* RootViewController.swift */,
 				02449A0F261B455D00F5FE9B /* Main.storyboard */,
+				02058C1D261DCDFF005E5B69 /* BlueUIView.swift */,
+				02058C20261DCE22005E5B69 /* YellowUIView.swift */,
 				02449A12261B455E00F5FE9B /* Assets.xcassets */,
 				02449A14261B455E00F5FE9B /* LaunchScreen.storyboard */,
 				02449A17261B455E00F5FE9B /* Info.plist */,
+				02449A1E261B4BCB00F5FE9B /* PurpleViewController.swift */,
+				02449A22261B54B300F5FE9B /* YellowViewController.swift */,
+				02449A25261B54D200F5FE9B /* BlueViewController.swift */,
+				02058C23261DCE87005E5B69 /* PurpleUIView.swift */,
 			);
 			path = ViewControllerHieararchyTest;
 			sourceTree = "<group>";
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02449A0E261B455D00F5FE9B /* ViewController.swift in Sources */,
+				02449A1F261B4BCB00F5FE9B /* PurpleViewController.swift in Sources */,
+				02449A0E261B455D00F5FE9B /* RootViewController.swift in Sources */,
+				02058C21261DCE22005E5B69 /* YellowUIView.swift in Sources */,
 				02449A0A261B455D00F5FE9B /* AppDelegate.swift in Sources */,
 				02449A0C261B455D00F5FE9B /* SceneDelegate.swift in Sources */,
+				02058C24261DCE87005E5B69 /* PurpleUIView.swift in Sources */,
+				02449A26261B54D200F5FE9B /* BlueViewController.swift in Sources */,
+				02449A23261B54B300F5FE9B /* YellowViewController.swift in Sources */,
+				02058C1E261DCDFF005E5B69 /* BlueUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
